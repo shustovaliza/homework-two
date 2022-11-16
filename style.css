@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: Regular;
+    src: local('Raleway'),
+        url(fonts/Raleway-Regular.woff2) format('woff2'),
+        url(fonts/Raleway-Regular.woff) format('woff'),
+        url(fonts/Raleway-Regular.ttf) format('ttf'),
+        url(fonts/Raleway-Regular.eot) format('eot');
+}
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    font-style: Bold;
+    src: local('Open Sans Bold'),
+        url(fonts/OpenSans-Bold.woff2) format('woff2'),
+        url(fonts/OpenSans-Bold.woff) format('woff'),
+        url(fonts/OpenSans-Bold.ttf) format('ttf'),
+        url(fonts/OpenSans-Bold.eot) format('eot');
+}
+
+@font-face {
+    font-family: 'Open Sans Regular';
+    font-style: Regular;
+    src: local('Open Sans Regular'),
+        url(fonts/OpenSans-Regular.woff2) format('woff2'),
+        url(fonts/OpenSans-Regular.woff) format('woff'),
+        url(fonts/OpenSans-Regular.ttf) format('ttf'),
+        url(fonts/OpenSans-Regular.eot) format('eot');
+}
+
+@font-face {
+    font-family: 'Open Sans Semibold';
+    font-style: Semibold;
+    src: local('Open Sans Semibold'),
+        url(fonts/OpenSans-SemiBold.woff2) format('woff2'),
+        url(fonts/OpenSans-SemiBold.woff) format('woff'),
+        url(fonts/OpenSans-SemiBold.ttf) format('ttf'),
+        url(fonts/OpenSans-SemiBold.eot) format('eot');
+}
+
+.tabs-section {
+    margin-top: 99px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 50px;
+    height: 541px;
+    width: 1170px;
+
+}
+
+.tabs-section__tabs {
+    height: 40px;
+    width: 1170px;
+}
+
+.tabs-section__tabs__tab-one {
+    width: 203px;
+    height: 40px;
+
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+    border-radius: 5px 5px 0px 0px;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.tabs-section__tabs__text {
+
+    font-family: 'Open Sans Regular';
+    font-style: Regular;
+    font-weight: 400;
+    font-size: 14px;
+
+    align-items: center;
+    text-align: center;
+
+    color: #333333;
+
+}
+
+.tabs-section__tabs__tab-two {
+    margin-top: -51px;
+    margin-left: 204px;
+    width: 203px;
+    height: 40px;
+    border-bottom: 1px solid #C6CBCD;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.tabs-section__tabs__tab-three {
+    margin-top: -51px;
+    margin-left: 407px;
+    width: 203px;
+    height: 40px;
+    border-bottom: 1px solid #C6CBCD;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.tabs-section__tabs__no-tabs {
+    border-bottom: 1px solid #C6CBCD;
+    height: 40px;
+    width: 561px;
+    margin-left: 610px;
+    margin-top: -41px;
+
+}
+
+.tabs-section__main-section {
+
+    width: 1170px;
+    height: 499px;
+    border-left: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+    border-bottom: 1px solid #C6CBCD;
+}
+
+.tabs-section__main-section__text-block {
+    margin-left: 100px;
+    margin-right: 530px;
+}
+
+.tabs-section__main-section__text-block h3 {
+    margin: 0px;
+    width: 570px;
+    height: 124px;
+
+    font-family: 'Open Sans Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.tabs-section__main-section__text-block h5 {
+    width: 570px;
+    height: 210px;
+    margin: 0px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+}
+
+.tabs-section__main-section__text-block p {
+    margin: 0px;
+}
+
+.exception {
+    padding-top: 20px;
+}
+
+.tabs-section__main-section__text-block__button {
+    width: 270px;
+    height: 58px;
+    margin-top: 27px;
+    margin-bottom: 54px;
+    background: #EC7979;
+
+    font-family: 'Open Sans Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+    border: none;
+}
+
+.tabs-section__main-section__image img {
+    width: 470px;
+    height: 500px;
+    margin-left: 700px;
+    margin-top: -473px;
+}
+
+.table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.table th {
+    border-bottom: 1px solid black;
+}
+
+.table td {
+    border: 1px solid black;
+}
+
+.center {
+    text-align: center;
+}
+
+.frame {
+    background: #8e3594;
+    color: white;
+    padding: 1em;
+    border: 5px double white;
+    width: 300px;
+}
+
+.table-two {
+    width: 300px;
+    border-collapse: collapse;
+    background: #9cc0a7;
+}
+
+.table-two td,
+th {
+    border: 2px solid white;
+    padding: 7px;
+}
+
+ul {
+    font-family: Open Sans Regular;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background: #997363;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 2px;
+}
+
+.individual-4 {
+    margin-top: 50px;
+    width: 400px;
+}
+
+.first {
+    border-radius: 7px 7px 0px 0px;
+}
+
+.last {
+    border-radius: 0 0 7px 7px;
+}
